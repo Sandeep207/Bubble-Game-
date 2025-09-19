@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(119, 170, 119);
+}
+
+.panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.paneltop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(68, 122, 68);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 20%;
+    
+    
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.box{
+    color: black;
+    font-size: 20px;
+    font-weight:600;
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: #fff;
+
+}
+.panelbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;;
+}
+
+.bubb{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(67, 157, 67);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubb:hover {
+    cursor: pointer;
+    background-color: rgb(45, 88, 45);
+}
+
+.hide{
+    display: none;
+}
+
+#newgame{
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight:600;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: #fff;
+}
